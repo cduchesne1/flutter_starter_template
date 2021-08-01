@@ -30,6 +30,10 @@ This template uses the [flutter_launcher_icons](https://pub.dev/packages/flutter
 - Replace the 4 images in the ```assets/launcher``` folder by your images. To learn more about the different proposes of the 4 images, I invite you to read  the package's documentation.
 - Run the ```flutter pub run flutter_launcher_icons:main``` command.
 
+### Set your lint rules
+
+Some lint rules are defined in the ```analysis_options.yaml``` file by default. You can customize those rules to your liking. To learn more about the available rules, please refer to the [lint](https://pub.dev/packages/lint) package documentation.
+
 ### Setup complete
 
 Everything is set to start your new project! You can now run your app and make sure that it is properly setup!
