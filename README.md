@@ -38,6 +38,16 @@ Some lint rules are defined in the ```analysis_options.yaml``` file by default. 
 
 Everything is set to start your new project! You can now run your app and make sure that it is properly setup!
 
+### Use the Navigation Service
+
+This template uses the navigation service provide with the [stacked_services](https://pub.dev/packages/stacked_services) package. When creating a new page, you simply need to add it to the array in the ```app/app.dart``` file and run the ```flutter pub run build_runner build --delete-conflicting-outputs``` command to use the new route. To learn about how to use the service throughout the app, I invite you to read the package documentation.
+
+### Use the Injection Container
+
+This template use a custom injection container based on the stacked locator to simplify the use of services. The [stacked_services](https://pub.dev/packages/stacked_services) package provides a way to automatically generate this type of locator, but a custom one is preferable to idealize the use of abstraction throughout the application.
+
+To add a new service, you simply have to register it in the ```injection_container.dart``` file.
+
 ## Package used in this template
 
 [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons): Command-line tool that make updating the app's launcher icon easy.
