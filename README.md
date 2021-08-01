@@ -43,7 +43,7 @@ Everything is set to start your new project! You can now run your app and make s
 [stacked_hooks](https://pub.dev/packages/stacked_hooks): A package that allows you to use the Flutter Hooks package with the Stacked architecture.
 [flutter_hooks](https://pub.dev/packages/flutter_hooks): A Flutter implementation of React hooks.
 [equatable](https://pub.dev/packages/equatable): Package that makes comparison between objects easier.
-[dartz](https://pub.dev/packages/dartz): Functional programming in Dart.
+[dartz](https://pub.dev/packages/dartz/versions/0.10.0-nullsafety.2): Functional programming in Dart.
 [internet_connection_checker](https://pub.dev/packages/internet_connection_checker): Check accurately the connection status of the devices.
 [lint](https://pub.dev/packages/lint): Community-driven collection of lint rules for Dart and Flutter.
 [mockito](https://pub.dev/packages/mockito): Mock library for Dart.
