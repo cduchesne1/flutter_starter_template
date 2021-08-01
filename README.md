@@ -13,7 +13,7 @@ This template covers the basic configuration needed to start any type of Flutter
 To use this template two options are available:
 
 - The recommended option is to use the "Use this template" button to create a new repository from this one.
-- But you can also clone this repo locally and start from there.
+- You can also clone this repo locally and start from there.
 
 ### Retrieve the dependencies
 
@@ -32,19 +32,30 @@ This template uses the [flutter_launcher_icons](https://pub.dev/packages/flutter
 
 ### Setup complete
 
-Everything is set to start your new project! You can now run your app and make sure that itt is properly setup!
+Everything is set to start your new project! You can now run your app and make sure that it is properly setup!
 
 ## Package used in this template
 
 [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons): Command-line tool that make updating the app's launcher icon easy.
+
 [get_it](https://pub.dev/packages/get_it): A service locator.
+
 [stacked](https://pub.dev/packages/stacked): A MVVM architecture developed by the FilledStacks community.
+
 [stacked_services](https://pub.dev/packages/stacked_services): A package that provides services to help with the implementation of the Stacked architecture.
+
 [stacked_hooks](https://pub.dev/packages/stacked_hooks): A package that allows you to use the Flutter Hooks package with the Stacked architecture.
+
 [flutter_hooks](https://pub.dev/packages/flutter_hooks): A Flutter implementation of React hooks.
+
 [equatable](https://pub.dev/packages/equatable): Package that makes comparison between objects easier.
+
 [dartz](https://pub.dev/packages/dartz): Functional programming in Dart.
+
 [internet_connection_checker](https://pub.dev/packages/internet_connection_checker): Check accurately the connection status of the devices.
+
 [lint](https://pub.dev/packages/lint): Community-driven collection of lint rules for Dart and Flutter.
+
 [mockito](https://pub.dev/packages/mockito): Mock library for Dart.
+
 [device_preview](https://pub.dev/packages/device_preview): Package that approximate the looks of your app on any device from any device.
