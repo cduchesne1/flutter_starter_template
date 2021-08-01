@@ -19,6 +19,10 @@ To use this template two options are available:
 
 This template comes with its fair share of useful dependencies and in order to use them, you must first run the command ```flutter pub get```.
 
+### Update the dependencies
+
+Make sure that your dependencies are up to date by running ```flutter pub upgrade``` and running ```flutter pub get``` after.
+
 ### Change your package and bundle name
 
 You will probably want to change the package and bundle name to use a unique custom one. To do so, I invite you to follow the steps provided by this StackOverflow discussion: [Change package name in Flutter](https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter) or use the following package: [change_app_ package_name](https://pub.dev/packages/change_app_package_name).
@@ -33,6 +37,10 @@ This template uses the [flutter_launcher_icons](https://pub.dev/packages/flutter
 ### Set your lint rules
 
 Some lint rules are defined in the ```analysis_options.yaml``` file by default. You can customize those rules to your liking. To learn more about the available rules, please refer to the [lint](https://pub.dev/packages/lint) package documentation.
+
+### Setup Device Preview
+
+By default the Device Preview package is not enabled. If you want to use it to see how your app would look on different devices, make sure to set the ```enabled``` parameter to ```true``` in the ```main`` function from the ```main.dart``` file.
 
 ### Setup complete
 
